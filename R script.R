@@ -47,6 +47,7 @@ winning_rate_after_winning_toss <- sum(IPL_info$toss_affect)/length(IPL_info$tos
 
 winning_rate_after_winning_toss
 
+# ploting the numbers of matches wins after winning toss 
 ggplot( IPL_info , aes(x =factor(toss_affect) , fill = factor(toss_affect))) +
   geom_bar(width = 0.6)+ scale_x_discrete(labels = c("0" = "toss winner lossing match" , "1" = "toss winner wining match"))+
   labs(
