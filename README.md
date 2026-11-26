@@ -16,7 +16,7 @@ Techniques: Programmatic File Iteration, Text Parsing (regex), Data Reshaping, F
 2. Text Parsing: Used readLines() and grepl("^info") to scan raw text and extract only the relevant match metadata, skipping unnecessary ball-by-ball rows to optimize processing.
 
 3. Data Reshaping: Converted the unstructured rows into a clean tabular format using read.csv() on text inputs, followed by pivot_wider() to handle unequal data structures.
-
+ 
 4. Aggregation: Combined the processed lists into a single master dataframe using bind_rows() and engineered a binary feature to track toss impact
 
 ## Conclusion
