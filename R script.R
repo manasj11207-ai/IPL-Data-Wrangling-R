@@ -2,8 +2,7 @@ library(tidyverse)
 
 #importing the creeksheet csv data in R
 
-IPL <- list.files("C:/Users/Hp/OneDrive/Desktop/2008",
-                  pattern = "\\.csv$") 
+IPL <- list.files("data/", pattern = "\\.csv$") # Update this path to where your CSV files are stored 
 
 
 # data cleanising 
