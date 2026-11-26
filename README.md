@@ -9,7 +9,7 @@ The goal of this micro-project was to extract and clean unstructured raw CSV dat
 * **Techniques:** Data Wrangling, Custom R Functions, Handling Unequal Data Frames, Data Visualization.
 
 ## Methodology
-1. Created a custom R function to read through 50+ heterogeneous CSV files containing both match metadata and ball-by-ball details.
+1. Created a custom R function to read through 1200+ heterogeneous CSV files containing both match metadata and ball-by-ball details.
 2. Extracted only the relevant metadata (Toss Winner, Match Winner) using Regex and text parsing.
 3. Cleaned and reshaped the data using `pivot_wider` and handled duplicate column structures.
 4. Merged all seasons' data into a single clean dataframe.
